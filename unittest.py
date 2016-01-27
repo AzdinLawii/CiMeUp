@@ -6,7 +6,7 @@ import nose
 
 import os,sys,inspect
 
-class TestPatchAngle(unittest.TestCase):
+class TestProgram(unittest.TestCase):
 
     # no
     def test_no(self):
@@ -14,9 +14,3 @@ class TestPatchAngle(unittest.TestCase):
     # yes
     def test_yes(self):
         self.assertEqual(1,1)
-
-
-
-
-if __name__ == '__main__':
-    unittest.main()
