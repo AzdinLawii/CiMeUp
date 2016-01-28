@@ -1,7 +1,7 @@
 
 
 import unittest
-import nose
+# import nose
 
 
 import os,sys,inspect
@@ -14,3 +14,6 @@ class TestProgram(unittest.TestCase):
     # yes
     def test_yes(self):
         self.assertEqual(1,1)
+        
+if __name__ == '__main__':
+    unittest.main()
