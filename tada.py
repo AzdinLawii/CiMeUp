@@ -4,8 +4,6 @@ import unittest
 # import nose
 
 
-import os,sys,inspect
-
 class TestProgram(unittest.TestCase):
 
     # no
